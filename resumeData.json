@@ -1,0 +1,88 @@
+{
+  "main": {
+    "name":"Andrew",
+    "fullName": "Andrew Choung",
+    "occupation":"Software Engineer",
+    "description":"",
+    "image":"profilepic.jpg",
+    "bio":"Experienced in building highly scalable customer focused RESTful web applications and creating modular UI components and features driven by performance using the latest web technologies in Redux, React, ES6/JS, HTML5, and Java.",
+    "contactmessage":"",
+    "email": "achoung1@gmail.com",
+    "phone": "",
+    "address":{
+      "street":"",
+      "city":"",
+      "state":"",
+      "zip": ""
+    },
+    "website": "",
+    "resumedownload":"Resume_Andrew_Choung.pdf",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/achoung/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/achoung",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"",
+    "education":[
+      {
+        "school":"University of California, San Diego",
+        "degree":"Bachelor of Science in Computer Science",
+        "graduated":"2007-2011",
+        "description":""
+      }
+    ],
+    "work":[
+      {
+        "company":"BAE Systems, Geospatial eXploitation Products",
+        "title":"Senior Software Engineer",
+        "years":"April 2017 - Present",
+        "description": [
+          "Designed and developed Redux/React features and components for the InMotion FMV product.",
+          "Led and developed with the SOM initiative team through the architecture, design, and development of the SOM Network Graph product. (React, D3.js, Java, Apache Camel).",
+          "Designed and developed new React/ES6 components from third-party open-source JS/jQuery libraries (leaflet, D3.js, timeslider, etc) and existing GXP YUI 3/JS modules.",
+          "Architected and integrated ESLint linting rules and assisted in automated Jest tests to enforce best coding practices and consistent code coverage for all web client initiatives.",
+          "Mentored interns and new college-hire software developers culturally and technically with weekly 1:1s, UI/UX design meet-ups, code reviews, and technical support."
+        ]
+      },
+      {
+        "company":"BAE Systems, Geospatial eXploitation Products",
+        "title":"Software Engineer 2",
+        "years":"August 2012 - April 2017",
+        "description": [
+          "Lead developer for the GXP Map Layer Manager. Map Layer Manager provides users a way to request and manage map layers from different web services on the fly without having to restart the Tomcat/Node.js web server. (React, react-ui-tree, YUI 3, jQuery)",
+          "Debugged performance bottlenecks in all automated build platforms and optimized Webpack plugins and configurations to improve web-client build production time by over 400%. This also helped reduced web client development mode build times from minutes to a few seconds.",
+          "Designed and developed the GXP Status Manager feature in YUI 3 that aggregates and manages successful, pending, and failed user operations within the GXP Platform web space. (Java, Apache Camel, PostgreSQL)",
+          "Developed RESTful endpoints in CRUD design for persisting and retrieving user preferences and settings when a user has logged in or out from the GXP Platform web application. (Java, Apache Camel, PostgreSQL)"
+        ]
+      },
+      {
+        "company":"BAE Systems, Activity-Based Intelligence Initiative",
+        "title":"Software Engineer",
+        "years":"June 2011 - August 2012",
+        "description": [
+          "Developed custom jqPlot heatmaps, line graphs, bar graphs, and 2d/3d scatter plots components in jQuery for modeling multi-int metadata.",
+          "Developed RESTful endpoints using Java and Spring Integration to aggregate cataloged data from multi-int data sources and live data via Apache ActiveMQ JMS."
+        ]
+      },
+      {
+        "company":"Union Bank, ECommerce Retail Core Systems",
+        "title":"Software Developer Intern",
+        "years":"June 2010 - December 2010",
+        "description": [
+          "Designed and developed a real-time standalone heuristic web application that monitors and alerts the product support team of any unresponsive deployed product and demo environments.",
+          "Developed an error recovery web feature that provides users with resolution options based on the cause of the alert."
+        ]
+      }
+    ],
+    "skills":[]
+  }
+}
