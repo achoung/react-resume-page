@@ -4,7 +4,10 @@
   "private": true,
   "homepage": "http://achoung.github.io/resume-page",
   "dependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint-html-reporter": "^0.5.2",
     "jquery": "^3.3.1",
+    "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-ga": "^2.5.3",
@@ -16,9 +19,15 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "eslint": "eslint src/**/*.js* -f html -o eslint-output.html"
   },
   "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
     "gh-pages": "^1.2.0"
   }
 }
