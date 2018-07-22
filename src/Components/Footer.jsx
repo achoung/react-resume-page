@@ -2,6 +2,9 @@ import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
 const COPYRIGHT = 'Copyright 2018 Andrew Choung';
+const DESIGN_BY = 'Design by ';
+const DESIGNER = 'Styleshout';
+const DESIGNER_URL = 'http://www.styleshout.com/';
 
 export default class Footer extends PureComponent {
     static propTypes = {
@@ -49,6 +52,12 @@ export default class Footer extends PureComponent {
                         <ul className="copyright">
                             <li>
                                 {copyright}
+                            </li>
+                            <li>
+                                {DESIGN_BY}
+                                <a title="Styleshout" href={DESIGNER_URL}>
+                                    {DESIGNER}
+                                </a>
                             </li>
                         </ul>
                     </div>
