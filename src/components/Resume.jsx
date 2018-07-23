@@ -72,7 +72,7 @@ class Resume extends PureComponent {
             });
 
             return (
-                <div key={`${company}`}>
+                <div key={`${company}_${title}`}>
                     <h3>
                         {company}
                     </h3>
