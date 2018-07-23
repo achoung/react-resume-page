@@ -1,4 +1,4 @@
-# resume-page
+# react-resume-page
 
 Here is my [**Resume**](https://achoung.github.io/resume-page).
 

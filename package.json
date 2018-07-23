@@ -1,8 +1,8 @@
 {
-  "name": "resume-page",
+  "name": "react-resume-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://achoung.github.io/resume-page",
+  "homepage": "http://achoung.github.io/react-resume-page",
   "dependencies": {
     "babel-eslint": "^8.2.6",
     "eslint-html-reporter": "^0.5.2",
