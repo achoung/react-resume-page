@@ -1,6 +1,6 @@
 # react-resume-page
 
-Here is my [**Resume**](https://achoung.github.io/resume-page).
+Here is my [**Resume**](https://achoung.github.io/react-resume-page).
 
 ---
 A GitHub Pages powered resume template coded in React using my resume data.
