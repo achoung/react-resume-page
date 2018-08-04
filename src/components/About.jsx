@@ -17,13 +17,12 @@ export default class About extends PureComponent {
             image: '',
             bio: '',
             email: '',
-            portfolio: '',
         },
     };
 
     render() {
         const { data } = this.props;
-        const { fullName, image, bio, email, portfolio } = data;
+        const { fullName, image, bio, email } = data;
 
         const profilePic = image ? `${IMAGES_DIR}/${image}` : '';
 
@@ -53,10 +52,6 @@ export default class About extends PureComponent {
                                     <span>
                                         {email}
                                     </span>
-                                    <br />
-                                    <a href={portfolio}>
-                                        {portfolio}
-                                    </a>
                                 </p>
                             </div>
                         </div>
