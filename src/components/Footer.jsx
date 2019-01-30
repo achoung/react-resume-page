@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
-const COPYRIGHT = 'Copyright 2018 Andrew Choung';
+const COPYRIGHT = 'Copyright 2019 Andrew Choung';
 const DESIGN_BY = 'Design by ';
 const DESIGNER = 'Styleshout';
 const DESIGNER_URL = 'http://www.styleshout.com/';
